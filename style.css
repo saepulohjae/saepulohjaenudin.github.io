@@ -1,0 +1,41 @@
+.jumbotron {
+  padding-top: 2rem;
+  background-color: rgb(39, 47, 66);
+  padding-bottom: 2rem;
+  border-radius: 7px;
+  border: 4px solid rgb(39, 47, 66);
+}
+.container {
+  width: 900px;
+  height: 800px;
+}
+
+.btn {
+  color: #ffebcd;
+  outline: auto;
+}
+
+.badge {
+  background-color: rgb(39, 47, 66);
+  color: #df901a;
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+  border: 2px solid #df901a;
+}
+
+.nav-link {
+  color: rgba(225, 239, 251, 1);
+
+  font-family: " Montserrat", sans-serif;
+}
+.nav {
+  padding-top: 2rem;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgb(39, 47, 66);
+  width: 50%;
+  margin: auto;
+}
