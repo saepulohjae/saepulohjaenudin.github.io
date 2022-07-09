@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <!-- my CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- my CSS Animation -->
+
+    <title>My Portofolio |Saepuloh</title>
+    <link rel="stylesheet" type="text/css" href="skill_bar_style.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#skillbar_php").animate({ width: "85%" }, 1500);
+        $("#skillbar_dtb").animate({ width: "75%" }, 1500);
+        $("#skillbar_asp").animate({ width: "95%" }, 1500);
+        $("#skillbar_jsp").animate({ width: "75%" }, 1500);
+      });
+    </script>
+  </head>
+  <style>
+    body {
+      background-image: url(./img/123.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      display: table;
+      vertical-align: middle;
+    }
+  </style>
+  <body>
+    <!-- navbar -->
+    <ul class="nav justify-content navbar-dark">
+      <li class="navbar-link" href="#" style="text-indent: 20px">
+        <img src="./img/copyright.png" alt="" width="45" height="44" />
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="experiance.html">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./assets/CV Saepuloh_Jaenudin.pdf">CV Download</a>
+      </li>
+    </ul>
+
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron text-center">
+          <img src="assets/foto.png" alt="" width="150" class="border border-secondary border-1 rounded-circle" />
+          <h5 class="text" style="padding-top: 1rem; color: #ffebcd; font-family: 'Helvetica Neue', Helvetica ',Arial', sans-serif"><strong>SAEPULOH JAENUDIN</strong></h5>
+          <h5 class="lead" style="padding-top: 0.5rem; color: #ffebcd; font-family: 'Helvetica Neue', Helvetica ',Arial', sans-serif"><strong>Information Systems</strong></h5>
+        </div>
+      </div>
+      <hr style="color: rgb(183, 180, 180)" />
+      <div class="row justify-content-md-center">
+        <div class="col-sm-5 col-md-6">
+          <div class="text">
+            <h5 style="font: italic 15px monospace">
+              Saya lulusan S-1 Sistem Informasi dengan (IPK 3.16),dengan pengalaman kerja 4 tahun lebih. Memiliki keterampilan dalam pemograman IT, PHP, HTML, CSS, JavaScript, Database Mysql & sql server, Pengujian perangkat lunak manual
+              and Automation(selenium and katalon studio),kerangka kerja CI, pengalaman di bidang otomotif, fabrikasi, departemen produksi, Gudang/logistik, staf administrasi PPIC, Perangkat lunak/keras. Memahami desain grafs Adobe XD, Ai,
+              UI/UX designer. Saya dapat mengandalkan tujuan saya untuk membantu perusahaan mencapai tujuan.
+            </h5>
+          </div>
+        </div>
+
+        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+          <div id="wrapper">
+            <div class="skill_name" id="skill_php">PHP</div>
+            <div class="skillbar_wrapper">
+              <div class="skillbar_bar" id="skillbar_php"></div>
+              <div class="skill_bar_percent">85%</div>
+            </div>
+
+            <div class="skill_name" id="skill_dtb">DBMS</div>
+            <div class="skillbar_wrapper">
+              <div class="skillbar_bar" id="skillbar_dtb"></div>
+              <div class="skill_bar_percent">75%</div>
+            </div>
+
+            <div class="skill_name" id="skill_asp">HTML</div>
+            <div class="skillbar_wrapper">
+              <div class="skillbar_bar" id="skillbar_asp"></div>
+              <div class="skill_bar_percent">90%</div>
+            </div>
+
+            <div class="skill_name" id="skill_jsp">JVS</div>
+            <div class="skillbar_wrapper">
+              <div class="skillbar_bar" id="skillbar_jsp"></div>
+              <div class="skill_bar_percent">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="color: rgb(183, 180, 180)" />
+    </div>
+
+    <!-- jumbutron akhir -->
+    <!-- footer -->
+
+    <!-- footer akhir -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
